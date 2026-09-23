@@ -489,3 +489,4 @@ To maintain absolute architectural discipline, the following matrix distinguishe
 > 3. Document the exact mechanism Zen uses to modify Firefox desktop UI and identify the exact integration boundary for custom `JSWindowActor` modules or BiDi extensions.
 >
 > *No architectural decisions or code implementations should be executed until this source inspection is completed.*
+

@@ -1,2 +1,5 @@
 # Ignore research PDFs
 research/papers/*.pdf
+
+# Ignore staging directories
+staging/
