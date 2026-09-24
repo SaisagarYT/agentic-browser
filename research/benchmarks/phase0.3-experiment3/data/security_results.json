@@ -1,0 +1,39 @@
+[
+  {
+    "testCase": "download_behavior_denied",
+    "setBehaviorResponse": {
+      "type": "success",
+      "id": 40,
+      "result": {}
+    },
+    "filesCreated": 0,
+    "confinementMaintained": true
+  },
+  {
+    "testCase": "nonexistent_destination_folder",
+    "destinationRequested": "C:\\Users\\saisa\\Documents\\Work\\Projects\\Personal\\Agentic-Browser\\research\\benchmarks\\phase0.3-experiment3\\downloads\\02_confinement\\sub_nonexistent_target_dir",
+    "setBehaviorResponse": {
+      "type": "success",
+      "id": 42,
+      "result": {}
+    },
+    "directoryAutoCreated": true,
+    "filesInSubdir": [
+      "download-text.txt"
+    ]
+  },
+  {
+    "testCase": "path_traversal_relative",
+    "headerSent": "attachment; filename=\"../../traversal-test.txt\"",
+    "escapedSandbox": false,
+    "sanitizedToDestFolder": true,
+    "resultingFilename": "_.._traversal-test.txt"
+  },
+  {
+    "testCase": "path_traversal_absolute",
+    "headerSent": "attachment; filename=\"C:\\Windows\\Temp\\traversal-abs.txt\"",
+    "escapedSandbox": false,
+    "sanitizedToDestFolder": true,
+    "resultingFilename": "C_WindowsTemptraversal-abs.txt"
+  }
+]

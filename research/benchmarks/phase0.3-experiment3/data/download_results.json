@@ -1,0 +1,185 @@
+[
+  {
+    "testCase": "filename_collision_handling",
+    "firstDownload": [
+      "collision-test.txt",
+      "fYGrGzrP.txt.part"
+    ],
+    "secondDownload": [
+      "collision-test(1).txt",
+      "collision-test.txt",
+      "fYGrGzrP.txt.part",
+      "jIL8qSHE.txt.part"
+    ],
+    "thirdDownload": [
+      "collision-test(1).txt",
+      "collision-test(2).T57vd-vc.txt.part",
+      "collision-test(2).txt",
+      "collision-test.txt",
+      "fYGrGzrP.txt.part",
+      "jIL8qSHE.txt.part"
+    ],
+    "strategy": "rename_with_counter"
+  },
+  {
+    "testCase": "concurrent_and_partial_file_lifecycle",
+    "partFileObserved": true,
+    "partFileExamples": [
+      {
+        "name": "xFeULKvZ.bin.part",
+        "size": 0
+      },
+      {
+        "name": "slow-stream.5hCQ8N4u.bin.part",
+        "size": 524288
+      },
+      {
+        "name": "slow-stream.5hCQ8N4u.bin.part",
+        "size": 524288
+      },
+      {
+        "name": "slow-stream.5hCQ8N4u.bin.part",
+        "size": 1015808
+      },
+      {
+        "name": "slow-stream.5hCQ8N4u.bin.part",
+        "size": 1015808
+      }
+    ],
+    "finalFiles": [
+      "download-1mb.bin",
+      "slow-stream.bin"
+    ],
+    "snapshotSummary": [
+      {
+        "elapsedMs": 106,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          }
+        ]
+      },
+      {
+        "elapsedMs": 542,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.5hCQ8N4u.bin.part",
+            "size": 524288
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 0
+          }
+        ]
+      },
+      {
+        "elapsedMs": 981,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.5hCQ8N4u.bin.part",
+            "size": 1540096
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 0
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1419,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.5hCQ8N4u.bin.part",
+            "size": 2064384
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 0
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1853,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.5hCQ8N4u.bin.part",
+            "size": 2588672
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 0
+          }
+        ]
+      },
+      {
+        "elapsedMs": 2288,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 3145728
+          }
+        ]
+      },
+      {
+        "elapsedMs": 2724,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 3145728
+          }
+        ]
+      },
+      {
+        "elapsedMs": 3159,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 3145728
+          }
+        ]
+      },
+      {
+        "elapsedMs": 3594,
+        "files": [
+          {
+            "name": "download-1mb.bin",
+            "size": 1048575
+          },
+          {
+            "name": "slow-stream.bin",
+            "size": 3145728
+          }
+        ]
+      }
+    ]
+  }
+]

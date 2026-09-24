@@ -1,0 +1,18 @@
+[
+  {
+    "testCase": "iframe_upload_same_origin",
+    "childContextId": "17179869185",
+    "origin": "http://127.0.0.1:8090/iframe_upload.html",
+    "latencyMs": 4,
+    "success": true,
+    "elementFound": true
+  },
+  {
+    "testCase": "iframe_upload_cross_origin",
+    "childContextId": "17179869186",
+    "origin": "http://127.0.0.1:8091/iframe_upload.html",
+    "latencyMs": 3,
+    "success": true,
+    "elementFound": true
+  }
+]

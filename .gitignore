@@ -7,3 +7,5 @@ staging/
 # Ignore temporary test profiles and logs
 temp_*/
 *.log
+research/benchmarks/**/temp-profile/
+research/benchmarks/**/downloads/

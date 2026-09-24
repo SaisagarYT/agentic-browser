@@ -1,0 +1,2 @@
+Synthetic multi-file test fixture D for Agentic Browser Experiment 3.
+Deterministic token: SEQ-D-99281

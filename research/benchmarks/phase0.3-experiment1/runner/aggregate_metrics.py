@@ -31,3 +31,4 @@ for pid, pdata in m.items():
     print(f"\n{pid} (Nodes: {pdata['node_count']}, Raw HTML Bytes: {pdata['raw_html_bytes']}, Raw Tokens: {raw_p_tok}):")
     for rep, rdata in pdata["representations"].items():
         print(f"  {rep:16s}: Bytes={rdata['bytes']:6d}, o200k={rdata['tokens_o200k']:5d} (Ratio: {rdata['comp_ratio_vs_html_o200k']:5.2f}, Red: {rdata['comp_reduction_pct_o200k']:6.1f}%), Ser={rdata['ser_time_ms']:.3f}ms")
+

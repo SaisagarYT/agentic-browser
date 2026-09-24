@@ -28,7 +28,9 @@ Phase 0.1 identified that Zen Browser inherits Gecko's native `WebDriver BiDi` i
 | **Actuation (Click)** | `input.performActions` executes synthetic clicks at P50 = 5.40 ms, P95 = 15.25 ms. | `MEASURED` | Phase 0.2 measurement (100% captured, 0% dropped). |
 | **Screenshot Capture** | `browsingContext.captureScreenshot` operates at P50 = 38.43 ms, P95 = 61.13 ms. | `MEASURED` | Phase 0.2 measurement (100 trials). |
 | **Tab Teardown** | `browsingContext.close` operates at P50 = 35.48 ms, P95 = 63.26 ms. | `MEASURED` | Phase 0.2 measurement (100 trials). |
-| **File Interception** | BiDi standard defines `browsingContext.handleUserPrompt` and input file upload, but network download interception is not verified. | `OBSERVED` | W3C BiDi spec defines file inputs; network response interception requires BiDi network module. |
+| **File Upload (`input.setFiles`)** | Operates silently without native dialogs across visible, hidden (`display: none`), and cross-origin iframes (2–3 ms latency). | `MEASURED` | Phase 0.3 Exp 3 benchmark (`upload_results.json`, `iframe_upload_results.json`). |
+| **Download Confinement** | `browser.setDownloadBehavior` silently directs downloads to destination folder; path traversal is sanitized. | `MEASURED` | Phase 0.3 Exp 3 benchmark (`download_results.json`, `security_results.json`). |
+| **Download Observability** | W3C BiDi lacks a `download` module in Gecko 156.0.1; `network.responseCompleted` precedes disk flush. | `MEASURED` | Phase 0.3 Exp 3 timing benchmark (`download_events.json`). |
 | **Zen Workspaces** | Zen-specific UI workspaces and split grids are not exposed in standard BiDi browsing context trees. | `OBSERVED` | Phase 0.1 audit (`src/browser/` and `src/zen/`); `getTree` only reports standard top-level browsing contexts. |
 
 ---
@@ -41,14 +43,15 @@ Phase 0.1 identified that Zen Browser inherits Gecko's native `WebDriver BiDi` i
 - **Input Actuation:** Low-latency synthetic pointer actions (`pointerDown`, `pointerUp`, `pointerMove`) dispatched with sub-10ms latency.
 - **Script Evaluation:** Arbitrary sandboxed script execution within content realms via `script.evaluate`.
 - **Visual Capture:** Full-page and viewport PNG screenshot generation.
+- **File Upload Actuation:** Silent element-targeted file upload via `input.setFiles` across DOM states and frame boundaries (P50: 2–3 ms).
+- **Direct Download Confinement:** Native dialog bypass and folder sandboxing via `browser.setDownloadBehavior` (type: `allowed` / `denied`).
 
 ### 2. Supported by BiDi Protocol but Not Yet Verified in Zen (`UNVERIFIED`)
 - **Network Request/Response Interception:** BiDi `network.addIntercept` for blocking or modifying headers/cookies.
-- **Direct File Downloads:** Automating native browser download dialogs and managing destination file paths without OS-level prompts.
-- **File Upload Dialog Interception:** BiDi `input.setFiles` against `<input type="file">` elements across cross-origin iframes.
 - **Print / PDF Generation:** `browsingContext.print` to produce PDF documents.
 
-### 3. Zen-Specific Limitations & Unknowns (`UNKNOWN`)
+### 3. Zen-Specific Limitations & Gaps (`OBSERVED` / `MEASURED`)
+- **BiDi Download Observability Gap:** Gecko lacks `download.*` lifecycle events. External agents cannot detect file write completion from BiDi alone.
 - **Workspace Isolation:** Standard BiDi does not distinguish Zen Workspaces (which are managed via Zen-specific JS modules `ZenWorkspaces` in the chrome UI). All tabs across all workspaces appear in the generic `browsingContext.getTree` list.
 - **Split-View Contexts:** When Zen tiles multiple tabs in a split view, standard BiDi sees them as independent top-level browsing contexts; layout grouping is invisible to BiDi.
 - **Container / `userContextId` Assignment:** Standard BiDi `browsingContext.create` does not yet natively expose Firefox multi-account container IDs (`userContextId`) across all Gecko versions without custom capabilities.

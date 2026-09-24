@@ -10,6 +10,8 @@
 - [Phase 0.3 Experiment 1 Benchmark Suite & Data](benchmarks/phase0.3-experiment1/README.md): Reproducible test runner, 12 test pages, 30 ground truth tasks, and complete JSON/CSV dataset.
 - [Phase 0.3 Experiment 2 Report: Zen Workspace & Split-View BiDi Mapping](phase0.3_experiment2_zen_workspace_bidi.md): Empirical report mapping Zen Workspaces, Tabs, and Split Views to WebDriver BiDi.
 - [Phase 0.3 Experiment 2 Benchmark Suite & Data](benchmarks/phase0.3-experiment2/README.md): Reproducible test runner and JSON/CSV dataset for Experiment 2.
+- [Phase 0.3 Experiment 3 Report: WebDriver BiDi File Upload & Download Validation](phase0.3_experiment3_file_upload_download.md): Empirical validation of silent file uploads via input.setFiles, download destination sandboxing, path traversal immunity, and BiDi event timing.
+- [Phase 0.3 Experiment 3 Benchmark Suite & Data](benchmarks/phase0.3-experiment3/README.md): Reproducible test runner, deterministic dual-origin test server, synthetic fixtures, and machine-readable JSON dataset for Experiment 3.
 - [Architectural Decision Records (ADRs)](adr/):
 
   - [ADR-0001: Browser Control Plane Interface](adr/ADR-0001-browser-control-plane.md) (Accepted)

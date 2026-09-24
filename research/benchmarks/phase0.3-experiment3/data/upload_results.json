@@ -1,0 +1,99 @@
+[
+  {
+    "testCase": "upload_dynamic_input",
+    "success": true,
+    "filesAssigned": 1
+  },
+  {
+    "testCase": "upload_visible_input",
+    "fixture": "upload-small.txt",
+    "fileSize": 101,
+    "latencyMs": 2,
+    "success": true
+  },
+  {
+    "testCase": "upload_visible_input",
+    "fixture": "upload-1mb.bin",
+    "fileSize": 1021674,
+    "latencyMs": 2,
+    "success": true
+  },
+  {
+    "testCase": "upload_visible_input",
+    "fixture": "upload-10mb.bin",
+    "fileSize": 10216740,
+    "latencyMs": 2,
+    "success": true
+  },
+  {
+    "testCase": "upload_hidden_input",
+    "latencyMs": 2,
+    "success": true,
+    "filesAssigned": 1
+  },
+  {
+    "testCase": "upload_multifile_and_submit",
+    "fileCount": 5,
+    "latencyMs": 3,
+    "orderPreserved": true,
+    "serverVerified": true,
+    "serverDetails": [
+      {
+        "fieldName": "file_visible",
+        "filename": "upload-10mb.bin",
+        "contentType": "application/octet-stream",
+        "size": 10216740,
+        "sha256": "4d28e1a0d745074fafe30bd36af4e7d1daf4aec5fa01f066ab2b662c41f70b31"
+      },
+      {
+        "fieldName": "file_hidden",
+        "filename": "upload-small.txt",
+        "contentType": "text/plain",
+        "size": 101,
+        "sha256": "0286bf0c1d30bdbe1bcfaa44005ecd205b72cb1c6c3c1b14629f71e0179bd794"
+      },
+      {
+        "fieldName": "files_multi",
+        "filename": "upload-multi-a.txt",
+        "contentType": "text/plain",
+        "size": 103,
+        "sha256": "abf157b842c578041fcc033ccb450b869a55ad7c8bfa6733d254bff8325d0d33"
+      },
+      {
+        "fieldName": "files_multi",
+        "filename": "upload-multi-b.txt",
+        "contentType": "text/plain",
+        "size": 103,
+        "sha256": "74866013500dfa249606846bda343dce3400d891e6a4b465e34a26f11cc18765"
+      },
+      {
+        "fieldName": "files_multi",
+        "filename": "upload-multi-c.txt",
+        "contentType": "text/plain",
+        "size": 103,
+        "sha256": "337fbfc5041a38617a8ed36becef814ecdcf479209bcdd85b4b97779dd02f5f0"
+      },
+      {
+        "fieldName": "files_multi",
+        "filename": "upload-multi-d.txt",
+        "contentType": "text/plain",
+        "size": 103,
+        "sha256": "f44eafdb83194566c98edf6527118c9b5a94d7f8c324af343bcac51875563591"
+      },
+      {
+        "fieldName": "files_multi",
+        "filename": "upload-multi-e.txt",
+        "contentType": "text/plain",
+        "size": 103,
+        "sha256": "4fbeb1b628ddbfdccdb6f0ed2c48843b12b272f66c1f0e97eb8aa67c87df605d"
+      },
+      {
+        "fieldName": "dynamic-test-file-input",
+        "filename": "upload-small.txt",
+        "contentType": "text/plain",
+        "size": 101,
+        "sha256": "0286bf0c1d30bdbe1bcfaa44005ecd205b72cb1c6c3c1b14629f71e0179bd794"
+      }
+    ]
+  }
+]

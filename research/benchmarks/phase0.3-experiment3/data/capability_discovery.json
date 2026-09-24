@@ -1,0 +1,43 @@
+{
+  "browser": "Zen Browser (Gecko 156.0.1)",
+  "bidiPort": 9248,
+  "upload": {
+    "method": "input.setFiles",
+    "supported": true,
+    "visibleInputs": true,
+    "hiddenInputs": true,
+    "disabledInputs": "Rejects with UnableToSetFileInputError",
+    "dynamicInputs": true,
+    "sameOriginIframes": true,
+    "crossOriginIframes": true,
+    "multiFileInputs": true,
+    "preservesArrayOrder": true,
+    "nativeFileDialogBypassed": true,
+    "supportsDirectoryUpload": false,
+    "directoryUploadError": {
+      "error": "unsupported operation",
+      "message": "Failed to add file C:\\Users\\saisa\\Documents\\Work\\Projects\\Personal\\Agentic-Browser\\research\\benchmarks\\phase0.3-experiment3\\fixtures ([Exception... \"File error: Is directory\"  nsresult: \"0x8052000d (NS_ERROR_FILE_IS_DIRECTORY)\"  location: \"<unknown>\"  data: no])"
+    }
+  },
+  "download": {
+    "behaviorMethod": "browser.setDownloadBehavior",
+    "supported": true,
+    "parameters": {
+      "behaviorType": [
+        "allowed",
+        "denied"
+      ],
+      "destinationParam": "destinationFolder"
+    },
+    "nativeFileDialogBypassed": true,
+    "pathTraversalSanitization": {
+      "relativeTraversalStripped": true,
+      "absolutePathStripped": true
+    },
+    "collisionResolution": "Numeric suffix appended",
+    "partialFilePattern": "*.part temporary file during write",
+    "bidiDownloadModuleExists": false,
+    "bidiLifecycleEventAvailable": false,
+    "diskSyncDetectionRequirement": "Filesystem polling / JSWindowActor observer needed"
+  }
+}

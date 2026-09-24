@@ -1,0 +1,13 @@
+[
+  {
+    "testCase": "timing_bidi_network_vs_fs_flush",
+    "triggerTime": 1790250769376,
+    "bidiResponseCompletedTime": 1790250769418,
+    "fileDetectedTime": 1790250769481,
+    "fileFullyFlushedTime": null,
+    "flushLagMs": null,
+    "sha256Matches": true,
+    "sha256": "d62a0f96d1794f64095a616de222c6f649e12d6aba35c943c40948804c7f2736",
+    "conclusion": "BiDi network.responseCompleted marks socket end-of-stream, not atomic OS disk write completion."
+  }
+]
