@@ -207,3 +207,4 @@ function extractSOM(root = document.body) {
 }
 
 JSON.stringify(extractSOM());
+
