@@ -1,0 +1,13 @@
+pageId,name,description,domNodes,interactiveElements,visibleElements,hiddenElements,forms,iframes,rawHtmlBytes,rawHtmlTokens,domBytes,domTokens,textBytes,textTokens,a11yBytes,a11yTokens,somBytes,somTokens,compressionRatio,tokenReductionPct,extractionLatencyMs
+"A","page_a_article.html","Static Article",16,0,13,3,0,0,1239,310,1203,301,849,213,132,33,1430,358,0.84,-18.94,0
+"B","page_b_news.html","News Layout",38,10,35,3,0,0,1829,458,1766,440,829,206,585,147,2783,695,0.63,-57.95,1
+"C","page_c_ecommerce.html","E-commerce Catalog",42,11,39,3,0,0,1975,494,1913,479,418,105,659,165,2535,634,0.75,-32.36,2
+"D","page_d_form.html","Form-Heavy Onboarding",47,13,44,3,1,0,2229,558,2192,548,373,94,524,131,2521,631,0.87,-15.15,2
+"E","page_e_spa.html","SPA Dynamic Updates",22,2,18,4,0,0,1393,349,1344,336,229,58,188,47,1323,331,1.02,1.49,1
+"F","page_f_table.html","Table Ledger Grid",151,15,148,3,0,0,5017,1255,4866,1217,1080,270,639,160,8569,2143,0.57,-76.09,1
+"G","page_g_iframes.html","Iframes (Same & Cross)",13,0,10,3,0,2,581,146,549,138,141,36,147,37,678,170,0.81,-23.19,1
+"H","page_h_hidden.html","Hidden Elements",16,1,9,8,0,0,858,215,821,206,238,60,97,25,917,230,0.9,-11.65,1
+"I","page_i_passwords.html","Password & Auth Form",20,5,17,3,1,0,862,216,836,209,133,34,324,81,1137,285,0.74,-36.36,1
+"J","page_j_dynamic_buttons.html","Dynamic Buttons",10,1,6,4,0,0,921,231,880,220,54,14,106,27,420,105,2.1,52.27,1
+"K","page_k_long_text.html","Long Text Document",89,0,86,3,0,0,25622,6406,25515,6379,24290,6073,2215,554,27889,6973,0.91,-9.31,2
+"L","page_l_deep_dom.html","Deep DOM Soup (Spacers)",313,1,260,53,0,0,18197,4550,18363,4591,71,18,102,26,2393,599,7.67,86.95,1

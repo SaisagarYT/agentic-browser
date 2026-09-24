@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Dynamic Action Palette</title></head>
+<body>
+  <h1>Dynamic Action Generation Hub</h1>
+  <button id="spawn-actions-btn" onclick="spawnButtons()">Spawn 5 Workflow Actions</button>
+  <div id="button-container" style="margin-top:20px;"></div>
+  <div id="status-log"></div>
+  <script>
+    let counter = 0;
+    function spawnButtons() {
+      const c = document.getElementById('button-container');
+      for (let i = 0; i < 5; i++) {
+        counter++;
+        const btn = document.createElement('button');
+        btn.id = `dyn-btn-${counter}`;
+        btn.className = 'workflow-action-btn';
+        btn.innerText = `Execute Workflow Step ${counter}`;
+        btn.onclick = () => { document.getElementById('status-log').innerText = `Step ${counter} triggered!`; };
+        c.appendChild(btn);
+      }
+    }
+  </script>
+</body>
+</html>

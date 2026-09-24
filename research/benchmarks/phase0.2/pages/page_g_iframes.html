@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Multi-Frame Portal</title></head>
+<body>
+  <h1>Parent Portal Host</h1>
+  <p>This master window orchestrates embedded services via iframes.</p>
+  <div class="frame-container">
+    <h3>Embedded Same-Origin Component</h3>
+    <iframe id="frame-same" src="iframe_same.html" width="400" height="150"></iframe>
+  </div>
+  <div class="frame-container">
+    <h3>Embedded Third-Party Frame</h3>
+    <iframe id="frame-cross" src="iframe_cross.html" width="400" height="150"></iframe>
+  </div>
+</body>
+</html>

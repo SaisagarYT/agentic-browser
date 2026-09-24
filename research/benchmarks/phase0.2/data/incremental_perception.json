@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "Text Modification",
+    "fullSnapshotBytes": 420,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 65.95,
+    "mutationExecMs": 4.325,
+    "deltaComputeMs": 3.616
+  },
+  {
+    "scenario": "Button Addition",
+    "fullSnapshotBytes": 425,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 66.35,
+    "mutationExecMs": 5.482,
+    "deltaComputeMs": 3.938
+  },
+  {
+    "scenario": "Button Removal",
+    "fullSnapshotBytes": 526,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 72.81,
+    "mutationExecMs": 4.385,
+    "deltaComputeMs": 2.967
+  },
+  {
+    "scenario": "Attribute Change (Disabled)",
+    "fullSnapshotBytes": 526,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 72.81,
+    "mutationExecMs": 2.931,
+    "deltaComputeMs": 4.021
+  },
+  {
+    "scenario": "Form Value Change",
+    "fullSnapshotBytes": 526,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 72.81,
+    "mutationExecMs": 2.864,
+    "deltaComputeMs": 2.993
+  },
+  {
+    "scenario": "Dynamic List Insertion (5 items)",
+    "fullSnapshotBytes": 558,
+    "deltaBytes": 143,
+    "deltaSavingsPct": 74.37,
+    "mutationExecMs": 4.248,
+    "deltaComputeMs": 3.279
+  }
+]

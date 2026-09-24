@@ -1,0 +1,661 @@
+{
+  "summary": [
+    {
+      "tier": "1 KB",
+      "payloadBytes": 965,
+      "min_ms": 2.913,
+      "p50_ms": 3.342,
+      "p95_ms": 3.753,
+      "p99_ms": 3.753,
+      "max_ms": 3.753,
+      "throughputMBs": 0.28,
+      "jankObserved": "None"
+    },
+    {
+      "tier": "10 KB",
+      "payloadBytes": 10302,
+      "min_ms": 2.835,
+      "p50_ms": 3.413,
+      "p95_ms": 5.841,
+      "p99_ms": 5.841,
+      "max_ms": 5.841,
+      "throughputMBs": 2.88,
+      "jankObserved": "None"
+    },
+    {
+      "tier": "100 KB",
+      "payloadBytes": 105327,
+      "min_ms": 3.11,
+      "p50_ms": 3.73,
+      "p95_ms": 4.439,
+      "p99_ms": 4.439,
+      "max_ms": 4.439,
+      "throughputMBs": 26.93,
+      "jankObserved": "None"
+    },
+    {
+      "tier": "1 MB",
+      "payloadBytes": 1105006,
+      "min_ms": 5.138,
+      "p50_ms": 6.848,
+      "p95_ms": 7.694,
+      "p99_ms": 7.694,
+      "max_ms": 7.694,
+      "throughputMBs": 153.89,
+      "jankObserved": "None"
+    },
+    {
+      "tier": "5 MB",
+      "payloadBytes": 5613901,
+      "min_ms": 13.468,
+      "p50_ms": 15.534,
+      "p95_ms": 40.809,
+      "p99_ms": 40.809,
+      "max_ms": 40.809,
+      "throughputMBs": 344.65,
+      "jankObserved": "Minor (frame drop > 16ms)"
+    }
+  ],
+  "raw": [
+    {
+      "tier": "1 KB",
+      "iteration": 1,
+      "bytes": 965,
+      "roundTripMs": 3.38
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 2,
+      "bytes": 965,
+      "roundTripMs": 3.072
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 3,
+      "bytes": 965,
+      "roundTripMs": 2.92
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 4,
+      "bytes": 965,
+      "roundTripMs": 3.563
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 5,
+      "bytes": 965,
+      "roundTripMs": 2.99
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 6,
+      "bytes": 965,
+      "roundTripMs": 3.753
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 7,
+      "bytes": 965,
+      "roundTripMs": 3.092
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 8,
+      "bytes": 965,
+      "roundTripMs": 3.468
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 9,
+      "bytes": 965,
+      "roundTripMs": 3.684
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 10,
+      "bytes": 965,
+      "roundTripMs": 3.558
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 11,
+      "bytes": 965,
+      "roundTripMs": 3.098
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 12,
+      "bytes": 965,
+      "roundTripMs": 3.46
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 13,
+      "bytes": 965,
+      "roundTripMs": 3.287
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 14,
+      "bytes": 965,
+      "roundTripMs": 3.342
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 15,
+      "bytes": 965,
+      "roundTripMs": 3.034
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 16,
+      "bytes": 965,
+      "roundTripMs": 2.96
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 17,
+      "bytes": 965,
+      "roundTripMs": 3.416
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 18,
+      "bytes": 965,
+      "roundTripMs": 3.358
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 19,
+      "bytes": 965,
+      "roundTripMs": 3.237
+    },
+    {
+      "tier": "1 KB",
+      "iteration": 20,
+      "bytes": 965,
+      "roundTripMs": 2.913
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 1,
+      "bytes": 10302,
+      "roundTripMs": 3.302
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 2,
+      "bytes": 10302,
+      "roundTripMs": 3.177
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 3,
+      "bytes": 10302,
+      "roundTripMs": 3.135
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 4,
+      "bytes": 10302,
+      "roundTripMs": 3.01
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 5,
+      "bytes": 10302,
+      "roundTripMs": 4.101
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 6,
+      "bytes": 10302,
+      "roundTripMs": 3.626
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 7,
+      "bytes": 10302,
+      "roundTripMs": 2.988
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 8,
+      "bytes": 10302,
+      "roundTripMs": 3.402
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 9,
+      "bytes": 10302,
+      "roundTripMs": 4.373
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 10,
+      "bytes": 10302,
+      "roundTripMs": 3.413
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 11,
+      "bytes": 10302,
+      "roundTripMs": 3.047
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 12,
+      "bytes": 10302,
+      "roundTripMs": 3.164
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 13,
+      "bytes": 10302,
+      "roundTripMs": 5.841
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 14,
+      "bytes": 10302,
+      "roundTripMs": 3.882
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 15,
+      "bytes": 10302,
+      "roundTripMs": 3.664
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 16,
+      "bytes": 10302,
+      "roundTripMs": 3.934
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 17,
+      "bytes": 10302,
+      "roundTripMs": 2.835
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 18,
+      "bytes": 10302,
+      "roundTripMs": 4.539
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 19,
+      "bytes": 10302,
+      "roundTripMs": 3.365
+    },
+    {
+      "tier": "10 KB",
+      "iteration": 20,
+      "bytes": 10302,
+      "roundTripMs": 4.096
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 1,
+      "bytes": 105327,
+      "roundTripMs": 3.73
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 2,
+      "bytes": 105327,
+      "roundTripMs": 4.207
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 3,
+      "bytes": 105327,
+      "roundTripMs": 3.11
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 4,
+      "bytes": 105327,
+      "roundTripMs": 3.34
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 5,
+      "bytes": 105327,
+      "roundTripMs": 3.455
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 6,
+      "bytes": 105327,
+      "roundTripMs": 4.439
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 7,
+      "bytes": 105327,
+      "roundTripMs": 3.794
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 8,
+      "bytes": 105327,
+      "roundTripMs": 4.426
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 9,
+      "bytes": 105327,
+      "roundTripMs": 4.225
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 10,
+      "bytes": 105327,
+      "roundTripMs": 3.376
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 11,
+      "bytes": 105327,
+      "roundTripMs": 3.594
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 12,
+      "bytes": 105327,
+      "roundTripMs": 3.627
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 13,
+      "bytes": 105327,
+      "roundTripMs": 3.149
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 14,
+      "bytes": 105327,
+      "roundTripMs": 3.711
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 15,
+      "bytes": 105327,
+      "roundTripMs": 3.913
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 16,
+      "bytes": 105327,
+      "roundTripMs": 3.812
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 17,
+      "bytes": 105327,
+      "roundTripMs": 4.356
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 18,
+      "bytes": 105327,
+      "roundTripMs": 3.632
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 19,
+      "bytes": 105327,
+      "roundTripMs": 4.024
+    },
+    {
+      "tier": "100 KB",
+      "iteration": 20,
+      "bytes": 105327,
+      "roundTripMs": 3.118
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 1,
+      "bytes": 1105006,
+      "roundTripMs": 6.883
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 2,
+      "bytes": 1105006,
+      "roundTripMs": 6.88
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 3,
+      "bytes": 1105006,
+      "roundTripMs": 7.238
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 4,
+      "bytes": 1105006,
+      "roundTripMs": 7.059
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 5,
+      "bytes": 1105006,
+      "roundTripMs": 7.083
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 6,
+      "bytes": 1105006,
+      "roundTripMs": 7.298
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 7,
+      "bytes": 1105006,
+      "roundTripMs": 7.694
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 8,
+      "bytes": 1105006,
+      "roundTripMs": 6.584
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 9,
+      "bytes": 1105006,
+      "roundTripMs": 6.848
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 10,
+      "bytes": 1105006,
+      "roundTripMs": 7.304
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 11,
+      "bytes": 1105006,
+      "roundTripMs": 6.267
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 12,
+      "bytes": 1105006,
+      "roundTripMs": 5.831
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 13,
+      "bytes": 1105006,
+      "roundTripMs": 7.01
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 14,
+      "bytes": 1105006,
+      "roundTripMs": 5.893
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 15,
+      "bytes": 1105006,
+      "roundTripMs": 5.138
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 16,
+      "bytes": 1105006,
+      "roundTripMs": 5.486
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 17,
+      "bytes": 1105006,
+      "roundTripMs": 6.154
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 18,
+      "bytes": 1105006,
+      "roundTripMs": 5.787
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 19,
+      "bytes": 1105006,
+      "roundTripMs": 6.626
+    },
+    {
+      "tier": "1 MB",
+      "iteration": 20,
+      "bytes": 1105006,
+      "roundTripMs": 6.397
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 1,
+      "bytes": 5613901,
+      "roundTripMs": 15.874
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 2,
+      "bytes": 5613901,
+      "roundTripMs": 14.078
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 3,
+      "bytes": 5613901,
+      "roundTripMs": 16.022
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 4,
+      "bytes": 5613901,
+      "roundTripMs": 13.468
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 5,
+      "bytes": 5613901,
+      "roundTripMs": 16.433
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 6,
+      "bytes": 5613901,
+      "roundTripMs": 14.629
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 7,
+      "bytes": 5613901,
+      "roundTripMs": 14.313
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 8,
+      "bytes": 5613901,
+      "roundTripMs": 14.166
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 9,
+      "bytes": 5613901,
+      "roundTripMs": 15.085
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 10,
+      "bytes": 5613901,
+      "roundTripMs": 13.579
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 11,
+      "bytes": 5613901,
+      "roundTripMs": 15.462
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 12,
+      "bytes": 5613901,
+      "roundTripMs": 15.534
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 13,
+      "bytes": 5613901,
+      "roundTripMs": 13.775
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 14,
+      "bytes": 5613901,
+      "roundTripMs": 23.647
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 15,
+      "bytes": 5613901,
+      "roundTripMs": 19.8
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 16,
+      "bytes": 5613901,
+      "roundTripMs": 27.56
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 17,
+      "bytes": 5613901,
+      "roundTripMs": 31.46
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 18,
+      "bytes": 5613901,
+      "roundTripMs": 14.66
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 19,
+      "bytes": 5613901,
+      "roundTripMs": 28.228
+    },
+    {
+      "tier": "5 MB",
+      "iteration": 20,
+      "bytes": 5613901,
+      "roundTripMs": 40.809
+    }
+  ]
+}

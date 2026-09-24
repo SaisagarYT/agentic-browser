@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Apex Tech Hardware Store</title></head>
+<body>
+  <header>
+    <h1>Apex Tech Hardware Store</h1>
+    <input type="search" id="catalog-search" placeholder="Search hardware...">
+    <button id="search-btn">Search</button>
+    <select id="sort-select"><option value="featured">Featured</option><option value="price-low">Price: Low to High</option><option value="rating">Rating</option></select>
+  </header>
+  <div class="product-grid">
+    <div class="product-card" id="prod-101">
+      <h4>Neural Accelerator Board X1</h4>
+      <p class="price">$499.00</p>
+      <span class="badge in-stock">In Stock</span>
+      <p class="rating">4.8 / 5.0 (124 reviews)</p>
+      <button class="btn-add-cart" data-id="101">Add to Cart</button>
+      <a href="#details-101">View Specs</a>
+    </div>
+    <div class="product-card" id="prod-102">
+      <h4>Ultra-Low-Latency Edge Router</h4>
+      <p class="price">$249.50</p>
+      <span class="badge low-stock">Low Stock</span>
+      <p class="rating">4.6 / 5.0 (89 reviews)</p>
+      <button class="btn-add-cart" data-id="102">Add to Cart</button>
+      <a href="#details-102">View Specs</a>
+    </div>
+    <div class="product-card" id="prod-103">
+      <h4>High-Precision Optical Trackpad</h4>
+      <p class="price">$79.99</p>
+      <span class="badge in-stock">In Stock</span>
+      <p class="rating">4.2 / 5.0 (45 reviews)</p>
+      <button class="btn-add-cart" data-id="103">Add to Cart</button>
+      <a href="#details-103">View Specs</a>
+    </div>
+    <div class="product-card" id="prod-104">
+      <h4>Hardware Security Key Pro</h4>
+      <p class="price">$55.00</p>
+      <span class="badge in-stock">In Stock</span>
+      <p class="rating">4.9 / 5.0 (310 reviews)</p>
+      <button class="btn-add-cart" data-id="104">Add to Cart</button>
+      <a href="#details-104">View Specs</a>
+    </div>
+  </div>
+</body>
+</html>

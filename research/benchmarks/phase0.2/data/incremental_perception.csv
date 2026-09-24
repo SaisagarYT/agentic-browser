@@ -1,0 +1,7 @@
+scenario,fullSnapshotBytes,deltaBytes,deltaSavingsPct,mutationExecMs,deltaComputeMs
+"Text Modification",420,143,65.95,4.325,3.616
+"Button Addition",425,143,66.35,5.482,3.938
+"Button Removal",526,143,72.81,4.385,2.967
+"Attribute Change (Disabled)",526,143,72.81,2.931,4.021
+"Form Value Change",526,143,72.81,2.864,2.993
+"Dynamic List Insertion (5 items)",558,143,74.37,4.248,3.279

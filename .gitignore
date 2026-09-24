@@ -3,3 +3,7 @@ research/papers/*.pdf
 
 # Ignore staging directories
 staging/
+
+# Ignore temporary test profiles and logs
+temp_*/
+*.log
