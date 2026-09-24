@@ -1,0 +1,50 @@
+{
+  "A_raw_html": {
+    "initial_snapshot": true,
+    "element_insert_delta": false,
+    "element_removal_delta": false,
+    "text_mutation_delta": false,
+    "diff_complexity": "Extreme (DOM tree re-parsing required)",
+    "memory_retention": "High (entire HTML document stored)"
+  },
+  "B_plain_text": {
+    "initial_snapshot": true,
+    "element_insert_delta": false,
+    "element_removal_delta": false,
+    "text_mutation_delta": true,
+    "diff_complexity": "High (line-based text diffing)",
+    "memory_retention": "Low"
+  },
+  "C_verbose_json": {
+    "initial_snapshot": true,
+    "element_insert_delta": true,
+    "element_removal_delta": true,
+    "text_mutation_delta": true,
+    "diff_complexity": "Low (keyed by cirId)",
+    "memory_retention": "Moderate"
+  },
+  "D_indented_yaml": {
+    "initial_snapshot": true,
+    "element_insert_delta": true,
+    "element_removal_delta": true,
+    "text_mutation_delta": true,
+    "diff_complexity": "Moderate (indentation maintenance)",
+    "memory_retention": "Low"
+  },
+  "E_compact_tuple": {
+    "initial_snapshot": true,
+    "element_insert_delta": true,
+    "element_removal_delta": true,
+    "text_mutation_delta": true,
+    "diff_complexity": "Very Low (line-based append/replace by cirId)",
+    "memory_retention": "Lowest"
+  },
+  "F_aria_tree": {
+    "initial_snapshot": true,
+    "element_insert_delta": true,
+    "element_removal_delta": true,
+    "text_mutation_delta": true,
+    "diff_complexity": "Moderate",
+    "memory_retention": "Low"
+  }
+}

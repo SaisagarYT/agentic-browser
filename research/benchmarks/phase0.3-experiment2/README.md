@@ -61,3 +61,4 @@ The runner will:
 3. **Split View Topology:** Split View creates independent, peer top-level browsing contexts. Panes are neither children of each other nor children of a composite context.
 4. **Hidden Tab Actuation:** BiDi can execute `script.evaluate`, `captureScreenshot`, `input.performActions` (clicks), and `navigate` on completely hidden/inactive tabs in inactive workspaces **without bringing them to the front and without shifting user focus**.
 5. **Metadata Deficit:** WebDriver BiDi exposes **zero workspace or split-view metadata** in its native events or `getTree` responses.
+

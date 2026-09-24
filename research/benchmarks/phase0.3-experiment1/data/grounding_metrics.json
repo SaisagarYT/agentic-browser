@@ -1,0 +1,92 @@
+{
+  "A_raw_html": {
+    "total_tasks": 30,
+    "correct_groundings": 28,
+    "accuracy_pct": 93.33,
+    "error_rate_pct": 6.67,
+    "wrong_target_errors": 2,
+    "hallucinated_id_errors": 0,
+    "latency_stats_ms": {
+      "min": 6507.85,
+      "max": 21141.2,
+      "p50": 8530.1,
+      "p95": 21141.2,
+      "p99": 21141.2
+    }
+  },
+  "B_plain_text": {
+    "total_tasks": 30,
+    "correct_groundings": 27,
+    "accuracy_pct": 90.0,
+    "error_rate_pct": 10.0,
+    "wrong_target_errors": 0,
+    "hallucinated_id_errors": 3,
+    "latency_stats_ms": {
+      "min": 2576.42,
+      "max": 34496.07,
+      "p50": 5871.81,
+      "p95": 34496.07,
+      "p99": 34496.07
+    }
+  },
+  "C_verbose_json": {
+    "total_tasks": 30,
+    "correct_groundings": 27,
+    "accuracy_pct": 90.0,
+    "error_rate_pct": 10.0,
+    "wrong_target_errors": 0,
+    "hallucinated_id_errors": 0,
+    "latency_stats_ms": {
+      "min": 2616.72,
+      "max": 36177.38,
+      "p50": 6068.19,
+      "p95": 36177.38,
+      "p99": 36177.38
+    }
+  },
+  "D_indented_yaml": {
+    "total_tasks": 30,
+    "correct_groundings": 30,
+    "accuracy_pct": 100.0,
+    "error_rate_pct": 0.0,
+    "wrong_target_errors": 0,
+    "hallucinated_id_errors": 0,
+    "latency_stats_ms": {
+      "min": 3030.91,
+      "max": 36357.83,
+      "p50": 5162.27,
+      "p95": 36357.83,
+      "p99": 36357.83
+    }
+  },
+  "E_compact_tuple": {
+    "total_tasks": 30,
+    "correct_groundings": 30,
+    "accuracy_pct": 100.0,
+    "error_rate_pct": 0.0,
+    "wrong_target_errors": 0,
+    "hallucinated_id_errors": 0,
+    "latency_stats_ms": {
+      "min": 2834.71,
+      "max": 22623.78,
+      "p50": 6650.41,
+      "p95": 15905.3,
+      "p99": 22623.78
+    }
+  },
+  "F_aria_tree": {
+    "total_tasks": 30,
+    "correct_groundings": 30,
+    "accuracy_pct": 100.0,
+    "error_rate_pct": 0.0,
+    "wrong_target_errors": 0,
+    "hallucinated_id_errors": 0,
+    "latency_stats_ms": {
+      "min": 3310.9,
+      "max": 18008.93,
+      "p50": 6215.35,
+      "p95": 14721.07,
+      "p99": 18008.93
+    }
+  }
+}

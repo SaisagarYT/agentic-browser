@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Financial Operations Ledger</title></head>
+<body>
+  <h2>Financial Transaction Clearing House</h2>
+  <table border="1" id="tx-table">
+    <thead>
+      <tr><th>Transaction ID</th><th>Counterparty</th><th>Status</th><th>Priority</th><th>Settlement Amount</th><th>Actions</th></tr>
+      <tr><th>Transaction ID</th><th data-sort="date" id="th-tx-date">Transaction Date</th><th>Counterparty</th><th>Status</th><th>Priority</th><th>Settlement Amount</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>TX-1001</td>
+          <td>2026-09-18</td>
+          <td>Enterprise Client B</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 2</td>
+          <td>$1,450.75</td>
+          <td><button class="action-btn" onclick="alert('Inspect 1')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1002</td>
+          <td>2026-09-19</td>
+          <td>Enterprise Client C</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 3</td>
+          <td>$2,901.50</td>
+          <td><button class="action-btn" onclick="alert('Inspect 2')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1003</td>
+          <td>Enterprise Client D</td>
+<tr data-id="INV-2024-003" data-user="Eleni Rostova">
+          <td>INV-2024-003</td>
+          <td>2026-09-20</td>
+          <td>Eleni Rostova</td>
+          <td><span class="badge-pending">Pending</span></td>
+          <td>Priority 1</td>
+          <td>$4,352.25</td>
+          <td><button class="action-btn" onclick="alert('Inspect 3')">Inspect</button></td>
+          <td><a class="action-view" id="view-inv-003" href="#view-003">View Details</a> | <a class="action-download" id="dl-inv-003" href="#dl-003">Download PDF</a></td>
+        </tr>
+<tr>
+          <td>TX-1004</td>
+          <td>Enterprise Client E</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 2</td>
+          <td>$5,803.00</td>
+          <td><button class="action-btn" onclick="alert('Inspect 4')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1005</td>
+          <td>Enterprise Client F</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 3</td>
+          <td>$7,253.75</td>
+          <td><button class="action-btn" onclick="alert('Inspect 5')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1006</td>
+          <td>Enterprise Client G</td>
+          <td><span class="badge-pending">Pending</span></td>
+          <td>Priority 1</td>
+          <td>$8,704.50</td>
+          <td><button class="action-btn" onclick="alert('Inspect 6')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1007</td>
+          <td>Enterprise Client H</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 2</td>
+          <td>$10,155.25</td>
+          <td><button class="action-btn" onclick="alert('Inspect 7')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1008</td>
+          <td>Enterprise Client I</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 3</td>
+          <td>$11,606.00</td>
+          <td><button class="action-btn" onclick="alert('Inspect 8')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1009</td>
+          <td>Enterprise Client J</td>
+          <td><span class="badge-pending">Pending</span></td>
+          <td>Priority 1</td>
+          <td>$13,056.75</td>
+          <td><button class="action-btn" onclick="alert('Inspect 9')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1010</td>
+          <td>Enterprise Client K</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 2</td>
+          <td>$14,507.50</td>
+          <td><button class="action-btn" onclick="alert('Inspect 10')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1011</td>
+          <td>Enterprise Client L</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 3</td>
+          <td>$15,958.25</td>
+          <td><button class="action-btn" onclick="alert('Inspect 11')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1012</td>
+          <td>Enterprise Client M</td>
+          <td><span class="badge-pending">Pending</span></td>
+          <td>Priority 1</td>
+          <td>$17,409.00</td>
+          <td><button class="action-btn" onclick="alert('Inspect 12')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1013</td>
+          <td>Enterprise Client N</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 2</td>
+          <td>$18,859.75</td>
+          <td><button class="action-btn" onclick="alert('Inspect 13')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1014</td>
+          <td>Enterprise Client O</td>
+          <td><span class="badge-active">Active</span></td>
+          <td>Priority 3</td>
+          <td>$20,310.50</td>
+          <td><button class="action-btn" onclick="alert('Inspect 14')">Inspect</button></td>
+        </tr>
+<tr>
+          <td>TX-1015</td>
+          <td>Enterprise Client P</td>
+          <td><span class="badge-pending">Pending</span></td>
+          <td>Priority 1</td>
+          <td>$21,761.25</td>
+          <td><button class="action-btn" onclick="alert('Inspect 15')">Inspect</button></td>
+        </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Real-Time Market Execution Dashboard</title></head>
+<body>
+  <h1>Live Market Execution Console</h1>
+  <div class="nav-tabs">
+    <button data-tab="overview" id="tab-overview">Overview</button>
+    <button data-tab="orders" id="tab-orders">Order Book</button>
+    <button data-tab="logs" id="tab-logs">Execution Log</button>
+    <button id="refresh-btn">Refresh Feeds</button>
+  </div>
+  <div id="ticker-box">
+    <div>Symbol: <strong>NVDA</strong> | Current: <span id="nvda-val">128.50</span> USD | Volume: <span id="nvda-vol">1,420,000</span></div>
+    <div>Symbol: <strong>AAPL</strong> | Current: <span id="aapl-val">234.10</span> USD | Volume: <span id="aapl-vol">890,200</span></div>
+  </div>
+  <div id="controls">
+    <button id="order-buy-btn" onclick="addOrder('BUY')">Execute BUY Order</button>
+    <button id="order-sell-btn" onclick="addOrder('SELL')">Execute SELL Order</button>
+  </div>
+  <h3>Recent Order Stream</h3>
+  <ul id="order-stream">
+    <li>System initialized at 09:30:00 EST</li>
+  </ul>
+  <script>
+    let count = 0;
+    setInterval(() => {
+      count++;
+      const delta = (Math.random() - 0.48).toFixed(2);
+      const curr = parseFloat(document.getElementById('nvda-val').innerText);
+      document.getElementById('nvda-val').innerText = (curr + parseFloat(delta)).toFixed(2);
+    }, 200);
+    function addOrder(side) {
+      const li = document.createElement('li');
+      li.innerText = `${new Date().toLocaleTimeString()} - ${side} 100 shares @ market`;
+      document.getElementById('order-stream').prepend(li);
+    }
+  </script>
+</body>
+</html>

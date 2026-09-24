@@ -305,3 +305,4 @@ Therefore, ADR-0008 must be **REVISED** from DEFERRED to an explicit **Dual-Abst
 
 1. **Experiment 1 (LLM Representation Benchmark - ADR-0003):** Benchmark token efficiency and action grounding accuracy across Compact Columnar Tuples, Indented YAML, and Verbose JSON using GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5/2.0 Flash.
 2. **Experiment 3 (BiDi File Upload & Download Validation - ADR-0001 & ADR-0009):** Verify `input.setFiles` across cross-origin iframes and programmatic download interception without native OS dialog prompts.
+
