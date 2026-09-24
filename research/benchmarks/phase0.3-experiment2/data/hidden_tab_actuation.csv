@@ -1,0 +1,4 @@
+targetName,contextId,evalLatencyMs,evalSuccess,evalOutput,shotLatencyMs,shotSuccess,screenshotBytes,clickLatencyMs,clickSuccess,activeTabRetainedFocus,becameVisibleToUser
+"Tab B (Inactive in Active WS 1)","993a8167-c533-446d-9b89-ed6783dcf142",19.98,true,"Global Tech Chronicle | /page_b_news.html",60.36,true,55556,65.37,true,true,false
+"Tab D (Hidden in Inactive WS 2)","dab2c667-5a0e-4fb1-a718-322a92a168f4",6.91,true,"Enterprise Onboarding Portal | /page_d_form.html",34.84,true,40740,46.32,true,true,false
+"Tab E (Hidden in Inactive WS 3)","2181d2c8-103f-456d-8f5b-dd12fe61be99",4.01,true,"Real-Time Market Execution Dashboard | /page_e_spa.html",36.63,true,25528,28.34,true,true,false

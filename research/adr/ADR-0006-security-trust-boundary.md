@@ -89,3 +89,4 @@ The following properties **MUST be enforced structurally by the software archite
 1. Perform red-team prompt injection tests against the SOM extractor using adversarial websites designed to bypass redaction.
 2. Verify that local processes without the 256-bit token are unable to connect to the BiDi port.
 3. Validate that the Policy Engine successfully intercepts and blocks simulated high-risk actions without model cooperation.
+

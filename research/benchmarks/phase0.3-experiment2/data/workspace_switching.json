@@ -1,0 +1,34 @@
+[
+  {
+    "targetWorkspace": "Workspace 1",
+    "activatedContext": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+    "switchLatencyMs": 63.22,
+    "totalContexts": 7,
+    "activeContextPresent": true,
+    "idsIdentical": true
+  },
+  {
+    "targetWorkspace": "Workspace 2",
+    "activatedContext": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+    "switchLatencyMs": 30.17,
+    "totalContexts": 7,
+    "activeContextPresent": true,
+    "idsIdentical": true
+  },
+  {
+    "targetWorkspace": "Workspace 3",
+    "activatedContext": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+    "switchLatencyMs": 40.65,
+    "totalContexts": 7,
+    "activeContextPresent": true,
+    "idsIdentical": true
+  },
+  {
+    "targetWorkspace": "Workspace 1",
+    "activatedContext": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+    "switchLatencyMs": 64.37,
+    "totalContexts": 7,
+    "activeContextPresent": true,
+    "idsIdentical": true
+  }
+]

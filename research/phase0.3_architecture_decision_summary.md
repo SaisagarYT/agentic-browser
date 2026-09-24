@@ -193,3 +193,4 @@ flowchart LR
 > [!IMPORTANT]
 > **Implementation Verdict:** **DO NOT BEGIN PHASE 1 IMPLEMENTATION YET.**  
 > While the core architectural boundaries (BiDi control, in-process perception, external sidecar runtime, and defense-in-depth security) are firmly established and accepted, Phase 1 implementation must not commence until the **three targeted empirical experiments above** are completed. This prevents premature lock-in to an inefficient perception wire format or an incompatible workspace abstraction.
+

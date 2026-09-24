@@ -92,3 +92,4 @@ The Phase 0.2 IPC measurements establish clear thresholds for `JSWindowActor` me
 1. Benchmark `JSWindowActor` throughput on multi-frame enterprise applications (e.g. Google Docs, Salesforce, Jira) containing dozens of nested iframes.
 2. Measure memory footprint of `JSWindowActorChild` instances across 50 open background tabs.
 3. Verify that `JSWindowActorChild` gracefully handles destroyed contexts during rapid page navigation without throwing unhandled rejection exceptions in the parent process.
+

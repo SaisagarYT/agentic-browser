@@ -71,3 +71,4 @@ The Agentic Browser project must determine how to integrate its control and perc
 ## Validation Requirements for Phase 1
 1. Verify that `ChromeUtils.registerWindowActor("AgentPerception", ...)` executes successfully inside `ZenActorsManager.mjs` on a clean Zen build.
 2. Measure build-time impact of adding `src/zen/agent/` to `moz.build` (should be $< 2$ seconds).
+

@@ -1,0 +1,4 @@
+operation,min,max,p50,p95,p99
+"browsingContext.getTree",5.503,378.063,18.645,32.412,378.063
+"browsingContext.create",40.384,382.728,128.733,185.929,382.728
+"browsingContext.close",11.285,79.277,28.463,42.674,79.277

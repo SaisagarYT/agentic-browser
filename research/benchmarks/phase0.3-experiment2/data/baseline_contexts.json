@@ -1,0 +1,39 @@
+{
+  "initialContextCount": 2,
+  "contextsAfter3Tabs": 5,
+  "contextsAfterClose": 4,
+  "tabB_removedProperly": true,
+  "idStability": true,
+  "clientWindowUnified": true,
+  "allParentsNull": true,
+  "contexts": [
+    {
+      "contextId": "9a7c4c86-621e-4731-9a12-cd7653e64dd1",
+      "url": "about:blank",
+      "userContext": "default",
+      "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+      "hasParent": false
+    },
+    {
+      "contextId": "b49e24af-b133-4732-bf8b-c37a29f1bba6",
+      "url": "http://127.0.0.1:8088/page_c_ecommerce.html",
+      "userContext": "default",
+      "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+      "hasParent": false
+    },
+    {
+      "contextId": "ec54375a-f8d5-4876-9072-a74d003a7a6c",
+      "url": "http://127.0.0.1:8088/page_a_article.html",
+      "userContext": "default",
+      "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+      "hasParent": false
+    },
+    {
+      "contextId": "942f26ab-b2fa-47ba-8475-819038b9a9b4",
+      "url": "about:blank",
+      "userContext": "default",
+      "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+      "hasParent": false
+    }
+  ]
+}

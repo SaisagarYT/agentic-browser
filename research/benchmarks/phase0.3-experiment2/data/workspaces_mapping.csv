@@ -1,0 +1,6 @@
+zenEntity,zenIdentifier,bidiContextId,parent,url,visibleInZen,activeInBiDi
+"Workspace 1","ws-alpha-001","2ea80f49-5a0a-4717-8ed8-b05fdadf9350","null","page_a_article.html","Visible (Active Tab)",true
+"Workspace 1","ws-alpha-001","993a8167-c533-446d-9b89-ed6783dcf142","null","page_b_news.html","Visible Tab",false
+"Workspace 2","ws-beta-002","03465f9c-34b9-403f-bdd2-16e8c75b7d94","null","page_c_ecommerce.html","Hidden (Inactive WS)",false
+"Workspace 2","ws-beta-002","dab2c667-5a0e-4fb1-a718-322a92a168f4","null","page_d_form.html","Hidden (Inactive WS)",false
+"Workspace 3","ws-gamma-003","2181d2c8-103f-456d-8f5b-dd12fe61be99","null","page_e_spa.html","Hidden (Inactive WS)",false

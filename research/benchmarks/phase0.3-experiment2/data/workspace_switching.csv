@@ -1,0 +1,5 @@
+targetWorkspace,activatedContext,switchLatencyMs,totalContexts,activeContextPresent,idsIdentical
+"Workspace 1","2ea80f49-5a0a-4717-8ed8-b05fdadf9350",63.22,7,true,true
+"Workspace 2","03465f9c-34b9-403f-bdd2-16e8c75b7d94",30.17,7,true,true
+"Workspace 3","2181d2c8-103f-456d-8f5b-dd12fe61be99",40.65,7,true,true
+"Workspace 1","2ea80f49-5a0a-4717-8ed8-b05fdadf9350",64.37,7,true,true

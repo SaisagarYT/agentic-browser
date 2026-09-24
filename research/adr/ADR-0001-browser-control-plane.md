@@ -114,3 +114,4 @@ Phase 0.1 identified that Zen Browser inherits Gecko's native `WebDriver BiDi` i
 1. Verify `input.setFiles` behavior across cross-origin iframes on live Zen.
 2. Verify `network.addIntercept` and response body streaming under heavy network traffic.
 3. Validate session authorization mechanisms preventing unauthorized local processes from hijacking the BiDi port.
+

@@ -1,0 +1,117 @@
+{
+  "hasWorkspaceMetadataInBiDi": false,
+  "totalTopLevelContextsInBiDi": 7,
+  "workspacesDefined": 3,
+  "mapping": [
+    {
+      "zenEntity": "Workspace 1",
+      "zenIdentifier": "ws-alpha-001",
+      "bidiContextId": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+      "parent": "null",
+      "url": "page_a_article.html",
+      "visibleInZen": "Visible (Active Tab)",
+      "activeInBiDi": true
+    },
+    {
+      "zenEntity": "Workspace 1",
+      "zenIdentifier": "ws-alpha-001",
+      "bidiContextId": "993a8167-c533-446d-9b89-ed6783dcf142",
+      "parent": "null",
+      "url": "page_b_news.html",
+      "visibleInZen": "Visible Tab",
+      "activeInBiDi": false
+    },
+    {
+      "zenEntity": "Workspace 2",
+      "zenIdentifier": "ws-beta-002",
+      "bidiContextId": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+      "parent": "null",
+      "url": "page_c_ecommerce.html",
+      "visibleInZen": "Hidden (Inactive WS)",
+      "activeInBiDi": false
+    },
+    {
+      "zenEntity": "Workspace 2",
+      "zenIdentifier": "ws-beta-002",
+      "bidiContextId": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+      "parent": "null",
+      "url": "page_d_form.html",
+      "visibleInZen": "Hidden (Inactive WS)",
+      "activeInBiDi": false
+    },
+    {
+      "zenEntity": "Workspace 3",
+      "zenIdentifier": "ws-gamma-003",
+      "bidiContextId": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+      "parent": "null",
+      "url": "page_e_spa.html",
+      "visibleInZen": "Hidden (Inactive WS)",
+      "activeInBiDi": false
+    }
+  ],
+  "rawContexts": [
+    {
+      "children": [],
+      "context": "009273c2-f9e0-41c3-bcec-e3d0d1acc3f9",
+      "originalOpener": null,
+      "url": "about:blank",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+      "originalOpener": null,
+      "url": "http://127.0.0.1:8088/page_e_spa.html",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+      "originalOpener": null,
+      "url": "http://127.0.0.1:8088/page_d_form.html",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+      "originalOpener": null,
+      "url": "http://127.0.0.1:8088/page_c_ecommerce.html",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "993a8167-c533-446d-9b89-ed6783dcf142",
+      "originalOpener": null,
+      "url": "http://127.0.0.1:8088/page_b_news.html",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+      "originalOpener": null,
+      "url": "http://127.0.0.1:8088/page_a_article.html",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    },
+    {
+      "children": [],
+      "context": "a34c2551-0fa7-4ad4-a75d-fe58c8a8d9ac",
+      "originalOpener": null,
+      "url": "about:blank",
+      "userContext": "default",
+      "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+      "parent": null
+    }
+  ]
+}

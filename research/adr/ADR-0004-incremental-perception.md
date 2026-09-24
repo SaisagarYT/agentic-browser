@@ -90,3 +90,4 @@ Conversely, triggering a full re-snapshot on every typing keystroke or minor hov
 1. Test the 50 ms debounce batching against a simulated live React dashboard updating at 60 FPS.
 2. Benchmark memory usage of the hybrid actor across 1,000 continuous simulated mutations on an infinite-scroll SPA.
 3. Validate that the reconciliation threshold reliably recovers from deliberately injected dropped delta packets.
+

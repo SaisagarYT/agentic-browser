@@ -70,3 +70,4 @@ Prematurely freezing the perception wire format to naive JSON or an untested cus
 ## Validation Requirements for Phase 1
 1. Run tokenizer benchmarks (tiktoken, sentencepiece) against identical DOM states formatted as: (a) Raw HTML, (b) Verbose JSON, (c) Indented YAML, (d) Compact Columnar/Tuples.
 2. Measure agent grounding accuracy (element selection error rate) on WebArena tasks using each candidate representation.
+

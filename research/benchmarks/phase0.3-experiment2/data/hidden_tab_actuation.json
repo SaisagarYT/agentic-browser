@@ -1,0 +1,44 @@
+[
+  {
+    "targetName": "Tab B (Inactive in Active WS 1)",
+    "contextId": "993a8167-c533-446d-9b89-ed6783dcf142",
+    "evalLatencyMs": 19.98,
+    "evalSuccess": true,
+    "evalOutput": "Global Tech Chronicle | /page_b_news.html",
+    "shotLatencyMs": 60.36,
+    "shotSuccess": true,
+    "screenshotBytes": 55556,
+    "clickLatencyMs": 65.37,
+    "clickSuccess": true,
+    "activeTabRetainedFocus": true,
+    "becameVisibleToUser": false
+  },
+  {
+    "targetName": "Tab D (Hidden in Inactive WS 2)",
+    "contextId": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+    "evalLatencyMs": 6.91,
+    "evalSuccess": true,
+    "evalOutput": "Enterprise Onboarding Portal | /page_d_form.html",
+    "shotLatencyMs": 34.84,
+    "shotSuccess": true,
+    "screenshotBytes": 40740,
+    "clickLatencyMs": 46.32,
+    "clickSuccess": true,
+    "activeTabRetainedFocus": true,
+    "becameVisibleToUser": false
+  },
+  {
+    "targetName": "Tab E (Hidden in Inactive WS 3)",
+    "contextId": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+    "evalLatencyMs": 4.01,
+    "evalSuccess": true,
+    "evalOutput": "Real-Time Market Execution Dashboard | /page_e_spa.html",
+    "shotLatencyMs": 36.63,
+    "shotSuccess": true,
+    "screenshotBytes": 25528,
+    "clickLatencyMs": 28.34,
+    "clickSuccess": true,
+    "activeTabRetainedFocus": true,
+    "becameVisibleToUser": false
+  }
+]

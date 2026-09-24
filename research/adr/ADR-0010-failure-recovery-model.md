@@ -75,3 +75,4 @@ Under no circumstances should the agent attempt automated recovery loops indefin
 ## Validation Requirements for Phase 1
 1. Build a synthetic "Chaos Test" suite: simulate random WebSocket drops, content process kills (`kill -9`), and DOM element removal during click dispatch.
 2. Verify that the WAL persistence layer resumes an in-progress workflow with zero lost tasks after a forced `SIGKILL` of the agent process.
+

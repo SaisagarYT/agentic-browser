@@ -88,3 +88,4 @@ The architectural question is whether this runtime should be embedded directly i
 ## Validation Requirements for Phase 1
 1. Test crash recovery: Deliberately terminate `zen.exe` while an agent task is active; verify the Agent Daemon detects the socket close, restarts `zen.exe`, reconnects via BiDi, and resumes the plan.
 2. Measure loopback socket latency between the external daemon and the browser parent process under 100% CPU load.
+

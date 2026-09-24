@@ -1,0 +1,318 @@
+{
+  "timestamp": "2026-09-24T05:54:55.728Z",
+  "environment": {
+    "os": "Windows 11 (10.0.26200)",
+    "zenCommit": "4c92731b2dbbcf3f5a4dad79c09d13c38f91f774",
+    "zenVersion": "1.22.3b",
+    "geckoVersion": "156.0.1",
+    "nodeVersion": "v24.20.0"
+  },
+  "results": {
+    "baseline": {
+      "initialContextCount": 2,
+      "contextsAfter3Tabs": 5,
+      "contextsAfterClose": 4,
+      "tabB_removedProperly": true,
+      "idStability": true,
+      "clientWindowUnified": true,
+      "allParentsNull": true,
+      "contexts": [
+        {
+          "contextId": "9a7c4c86-621e-4731-9a12-cd7653e64dd1",
+          "url": "about:blank",
+          "userContext": "default",
+          "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+          "hasParent": false
+        },
+        {
+          "contextId": "b49e24af-b133-4732-bf8b-c37a29f1bba6",
+          "url": "http://127.0.0.1:8088/page_c_ecommerce.html",
+          "userContext": "default",
+          "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+          "hasParent": false
+        },
+        {
+          "contextId": "ec54375a-f8d5-4876-9072-a74d003a7a6c",
+          "url": "http://127.0.0.1:8088/page_a_article.html",
+          "userContext": "default",
+          "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+          "hasParent": false
+        },
+        {
+          "contextId": "942f26ab-b2fa-47ba-8475-819038b9a9b4",
+          "url": "about:blank",
+          "userContext": "default",
+          "clientWindow": "e78ee942-b261-4295-888d-7b592039a852",
+          "hasParent": false
+        }
+      ]
+    },
+    "workspacesMapping": {
+      "hasWorkspaceMetadataInBiDi": false,
+      "totalTopLevelContextsInBiDi": 7,
+      "workspacesDefined": 3,
+      "mapping": [
+        {
+          "zenEntity": "Workspace 1",
+          "zenIdentifier": "ws-alpha-001",
+          "bidiContextId": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+          "parent": "null",
+          "url": "page_a_article.html",
+          "visibleInZen": "Visible (Active Tab)",
+          "activeInBiDi": true
+        },
+        {
+          "zenEntity": "Workspace 1",
+          "zenIdentifier": "ws-alpha-001",
+          "bidiContextId": "993a8167-c533-446d-9b89-ed6783dcf142",
+          "parent": "null",
+          "url": "page_b_news.html",
+          "visibleInZen": "Visible Tab",
+          "activeInBiDi": false
+        },
+        {
+          "zenEntity": "Workspace 2",
+          "zenIdentifier": "ws-beta-002",
+          "bidiContextId": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+          "parent": "null",
+          "url": "page_c_ecommerce.html",
+          "visibleInZen": "Hidden (Inactive WS)",
+          "activeInBiDi": false
+        },
+        {
+          "zenEntity": "Workspace 2",
+          "zenIdentifier": "ws-beta-002",
+          "bidiContextId": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+          "parent": "null",
+          "url": "page_d_form.html",
+          "visibleInZen": "Hidden (Inactive WS)",
+          "activeInBiDi": false
+        },
+        {
+          "zenEntity": "Workspace 3",
+          "zenIdentifier": "ws-gamma-003",
+          "bidiContextId": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+          "parent": "null",
+          "url": "page_e_spa.html",
+          "visibleInZen": "Hidden (Inactive WS)",
+          "activeInBiDi": false
+        }
+      ],
+      "rawContexts": [
+        {
+          "children": [],
+          "context": "009273c2-f9e0-41c3-bcec-e3d0d1acc3f9",
+          "originalOpener": null,
+          "url": "about:blank",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+          "originalOpener": null,
+          "url": "http://127.0.0.1:8088/page_e_spa.html",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+          "originalOpener": null,
+          "url": "http://127.0.0.1:8088/page_d_form.html",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+          "originalOpener": null,
+          "url": "http://127.0.0.1:8088/page_c_ecommerce.html",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "993a8167-c533-446d-9b89-ed6783dcf142",
+          "originalOpener": null,
+          "url": "http://127.0.0.1:8088/page_b_news.html",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+          "originalOpener": null,
+          "url": "http://127.0.0.1:8088/page_a_article.html",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        },
+        {
+          "children": [],
+          "context": "a34c2551-0fa7-4ad4-a75d-fe58c8a8d9ac",
+          "originalOpener": null,
+          "url": "about:blank",
+          "userContext": "default",
+          "clientWindow": "2a61ad73-db26-4346-8c66-ae3f201487fe",
+          "parent": null
+        }
+      ]
+    },
+    "workspaceSwitching": [
+      {
+        "targetWorkspace": "Workspace 1",
+        "activatedContext": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+        "switchLatencyMs": 63.22,
+        "totalContexts": 7,
+        "activeContextPresent": true,
+        "idsIdentical": true
+      },
+      {
+        "targetWorkspace": "Workspace 2",
+        "activatedContext": "03465f9c-34b9-403f-bdd2-16e8c75b7d94",
+        "switchLatencyMs": 30.17,
+        "totalContexts": 7,
+        "activeContextPresent": true,
+        "idsIdentical": true
+      },
+      {
+        "targetWorkspace": "Workspace 3",
+        "activatedContext": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+        "switchLatencyMs": 40.65,
+        "totalContexts": 7,
+        "activeContextPresent": true,
+        "idsIdentical": true
+      },
+      {
+        "targetWorkspace": "Workspace 1",
+        "activatedContext": "2ea80f49-5a0a-4717-8ed8-b05fdadf9350",
+        "switchLatencyMs": 64.37,
+        "totalContexts": 7,
+        "activeContextPresent": true,
+        "idsIdentical": true
+      }
+    ],
+    "hiddenTabActuation": [
+      {
+        "targetName": "Tab B (Inactive in Active WS 1)",
+        "contextId": "993a8167-c533-446d-9b89-ed6783dcf142",
+        "evalLatencyMs": 19.98,
+        "evalSuccess": true,
+        "evalOutput": "Global Tech Chronicle | /page_b_news.html",
+        "shotLatencyMs": 60.36,
+        "shotSuccess": true,
+        "screenshotBytes": 55556,
+        "clickLatencyMs": 65.37,
+        "clickSuccess": true,
+        "activeTabRetainedFocus": true,
+        "becameVisibleToUser": false
+      },
+      {
+        "targetName": "Tab D (Hidden in Inactive WS 2)",
+        "contextId": "dab2c667-5a0e-4fb1-a718-322a92a168f4",
+        "evalLatencyMs": 6.91,
+        "evalSuccess": true,
+        "evalOutput": "Enterprise Onboarding Portal | /page_d_form.html",
+        "shotLatencyMs": 34.84,
+        "shotSuccess": true,
+        "screenshotBytes": 40740,
+        "clickLatencyMs": 46.32,
+        "clickSuccess": true,
+        "activeTabRetainedFocus": true,
+        "becameVisibleToUser": false
+      },
+      {
+        "targetName": "Tab E (Hidden in Inactive WS 3)",
+        "contextId": "2181d2c8-103f-456d-8f5b-dd12fe61be99",
+        "evalLatencyMs": 4.01,
+        "evalSuccess": true,
+        "evalOutput": "Real-Time Market Execution Dashboard | /page_e_spa.html",
+        "shotLatencyMs": 36.63,
+        "shotSuccess": true,
+        "screenshotBytes": 25528,
+        "clickLatencyMs": 28.34,
+        "clickSuccess": true,
+        "activeTabRetainedFocus": true,
+        "becameVisibleToUser": false
+      }
+    ],
+    "splitTopology": {
+      "totalContexts": 5,
+      "caseA_twoPanes": {
+        "pane1_contextId": "44e8b5fb-89aa-4914-85d7-672ad4e2d8cc",
+        "pane2_contextId": "a717aac2-2177-43df-b183-5dada3fabf7a",
+        "areIndependentTopLevel": true,
+        "isChildOfOther": false,
+        "sharesWindow": true
+      },
+      "caseB_threePanes": {
+        "pane1_contextId": "44e8b5fb-89aa-4914-85d7-672ad4e2d8cc",
+        "pane2_contextId": "a717aac2-2177-43df-b183-5dada3fabf7a",
+        "pane3_contextId": "07245963-97e9-408b-9859-04219b5d07ef",
+        "allIndependentTopLevel": true
+      },
+      "bidiReportsSplitAttributes": false,
+      "contexts": [
+        {
+          "contextId": "e6150d3e-7cc3-4395-8d0b-ec842de92fe7",
+          "url": "about:blank",
+          "parent": null,
+          "clientWindow": "dbb3d3bd-28da-4481-a476-87926f4a9e7d"
+        },
+        {
+          "contextId": "07245963-97e9-408b-9859-04219b5d07ef",
+          "url": "http://127.0.0.1:8088/page_c_ecommerce.html",
+          "parent": null,
+          "clientWindow": "dbb3d3bd-28da-4481-a476-87926f4a9e7d"
+        },
+        {
+          "contextId": "a717aac2-2177-43df-b183-5dada3fabf7a",
+          "url": "http://127.0.0.1:8088/page_f_table.html",
+          "parent": null,
+          "clientWindow": "dbb3d3bd-28da-4481-a476-87926f4a9e7d"
+        },
+        {
+          "contextId": "44e8b5fb-89aa-4914-85d7-672ad4e2d8cc",
+          "url": "http://127.0.0.1:8088/page_a_article.html",
+          "parent": null,
+          "clientWindow": "dbb3d3bd-28da-4481-a476-87926f4a9e7d"
+        },
+        {
+          "contextId": "fa35c8b3-6fea-42a4-ae9f-7f3837077de9",
+          "url": "about:blank",
+          "parent": null,
+          "clientWindow": "dbb3d3bd-28da-4481-a476-87926f4a9e7d"
+        }
+      ]
+    },
+    "lifecycle": {
+      "getTree": {
+        "min": 5.503,
+        "max": 378.063,
+        "p50": 18.645,
+        "p95": 32.412,
+        "p99": 378.063
+      },
+      "tabCreate": {
+        "min": 40.384,
+        "max": 382.728,
+        "p50": 128.733,
+        "p95": 185.929,
+        "p99": 382.728
+      },
+      "tabClose": {
+        "min": 11.285,
+        "max": 79.277,
+        "p50": 28.463,
+        "p95": 42.674,
+        "p99": 79.277
+      }
+    }
+  }
+}
